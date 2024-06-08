@@ -31,7 +31,7 @@ const Add = () => {
                         </div>
                         <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                             <label htmlFor="" className="form-label">Category</label>
-                            <select name="" id="" className="form-control" name='Category' value={news.Category}onChange={inputHandler}>
+                            <select name="Category" id="" className="form-control" value={news.Category}onChange={inputHandler}>
                                 <option value="">Entertainment</option>
                                 <option value="">General</option>
                                 <option value="">Sports</option>
